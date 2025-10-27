@@ -18,15 +18,24 @@ An integrated monitoring system with:
 ##  Setup
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/observability-project.git
+   git clone https://github.com/NGOVINDARAJU/observability-project.git
    cd observability-project
 2.Build and start all containers*
   ```bash
   docker-compose up --build
+  ```
 
 ## Access UIs:
 - App → http://localhost:5000
 - Prometheus → http://localhost:9090
 - Grafana → http://localhost:3000
 - Jaeger → http://localhost:16686
+## Dashboards
+- Include your dashboard JSON files in grafana_dashboards/.
+     ### Insights
+     - Prometheus scrapes app metrics.
+     - Loki aggregates logs from Promtail.
+     - Jaeger visualizes request traces.
+     - Grafana unifies all observability data.
+  
 
