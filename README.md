@@ -22,7 +22,7 @@ An integrated monitoring system with:
    cd observability-project
 2.Build and start all containers*
   ```bash
-  Build and start all containers
+  docker-compose up --build
 3.Access UIs:
 - App → http://localhost:5000
 - Prometheus → http://localhost:9090
