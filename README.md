@@ -23,7 +23,8 @@ An integrated monitoring system with:
 2.Build and start all containers*
   ```bash
   docker-compose up --build
-3.Access UIs:
+
+## Access UIs:
 - App → http://localhost:5000
 - Prometheus → http://localhost:9090
 - Grafana → http://localhost:3000
